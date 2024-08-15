@@ -121,29 +121,40 @@
     <!-- Agriculture and organic farm  -->     
      <div class="mt-80 container mx-auto">
         <div class="container mx-auto p-6">
-            <div class="grid grid-cols-2 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <!-- First Column: Two Images with Negative Z-Index -->
-                <div class="relative">
-                    <img src="Images/07.jpg" alt="Image 1" class="absolute z-[-10] rounded-full object-scale-down h-48 w-96">
-                    <img src="Images/06.jpg" alt="Image 2" class="absolute z-[-20] bottom-20 left-20  rounded-full object-scale-down h-48 w-96">
+                <div class="relative hidden sm:block">
+                    <img src="Images/07.jpg" alt="Image 1" class="absolute z-[-15] bottom-20  rounded object-scale-down h-24 w-60 ">
+                    <img src="Images/06.jpg" alt="Image 2" class="absolute z-[-20] bottom-20 left-20  rounded object-scale-down h-48 w-96">
                 </div>
                 <!-- Second Column: Headers, Paragraphs, Icon, and Button -->
-                <div class="flex flex-col space-y-4">
-                    <h1 class="text-2xl font-bold">Header 1</h1>
-                    <h2 class="text-xl font-semibold">Header 2</h2>
-                    <p class="text-base">This is a paragraph of text.</p>
-                    <div class="flex items-center space-x-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
-                        </svg>
-                        <p class="text-base">This is another paragraph beside an icon.</p>
-                    </div>
-                    <button class="px-4 py-2 bg-blue-500 text-white rounded">Button</button>
+                <div class="flex flex-col space-y-4 ">
+                    <h1 class="text-2xl ">Our Introductions</h1>
+                    <h2 class="text-xl font-semibold">Agriculture & Organic  Product Farm</h2>
+                    <p class="text-base">Agrios is the largest global organic farm.</p>
+                    <div >
+                        <div class="flex flex-row">
+                            <div class="flex items-center space-x-2">
+                                <i class="fa-solid fa-cow"></i>
+                                <p class="text-base">Growing fruits <br> vegetables</p>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <i class="fa-solid fa-building-wheat"></i>
+                                <p class="text-base">Tips for ripening
+                                     <br> your fruits</p>
+                            </div>
+                        </div>
+                        <button class="bg-lime-700 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mt-1 ">Click Me</button>
+                    </div>                    
+                    
                 </div>
             </div>
         </div>
      </div>   
 
      <!-- Agriculture and Organic Product End -->
+
+
+     
 </body>
 </html>
