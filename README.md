@@ -23,7 +23,7 @@ Footer Design: A well-structured footer that includes important links such as th
 
 
 Live Demo 
-Check out the live version of the website: 
+Check out the live version of the website: https://agro-essence.netlify.app/
 
 GitHub Repo
 Explore the project's code and contribute: https://github.com/shahadot99999/agro_essence1
